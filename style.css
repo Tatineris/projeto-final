@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li {
+    list-style: none;/*retira as bolinhas do menu*/
+    display: inline;
+    margin-right: 40px;
+}
+.cabecalho {
+    background-color: #BE89CB;
+    height: 103px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.lista-menu li > a {
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;/*tirar o underline*/
+}
+.perfil {
+    background-color: #EDEAEA;
+    height: 579px;
+    text-align: center;
+}
+.minha-descricao {
+    font-size: 14px;
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    margin-top: 48px;
+    margin-bottom: 26px;
+}
+.profissao {
+    font-size: 24px;
+    color: #C5C0C0;
+}
+.titulo-profissao {
+    color: #FF4DBC;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 50.4px */
+}
+.container  {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    max-width: 750px;
+}
+.artigo-formacao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.titulo-secao {
+    font-size: 24px;
+    color: #FF4DBC;
+    margin-bottom: 50px;
+}
+.lista-formacao {
+    padding-left: 32px;
+}
+.titulo-formacao {
+    font-size: 16px;
+    color: #661E4B;
+    font-weight: 700;
+    font-style: normal;
+}
+.link-formacao {
+    color: #2F80ED;
+    font-size: 14px;
+    font-weight: 400;
+}
+.descricao-formacao {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.artigo-projeto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.titulo-secao {
+    font-size: 24px;
+    color: #FF4DBC;
+    margin-bottom: 50px;
+}
+.lista-projeto {
+     padding-left: 32px;
+}
+.titulo-projeto {
+    font-size: 16px;
+    color: #661E4B;
+    font-weight: 700;
+    font-style: normal
+}
+.link-projeto {
+    color: #2F80ED;
+    font-size: 14px;
+}
+.descricao-projeto {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+        
+.rodape {
+    display: flex;
+    align-items: center;
+    background-color: #BE89CB;
+    height: 300px;
+}
+.container-rodape {
+    margin-left: 60px;
+}     
+.lista-rodape li {
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    line-height: normal;
+    
+}
+
+    
